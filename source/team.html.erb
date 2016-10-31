@@ -1,0 +1,16 @@
+<!-- <div class="list-inline"> -->
+  <div class="container text-center list-inline padded">
+    <h2> Our team</h2>
+    <div class="row">
+        <% data.team.each do |member, infos| %>
+          <div class="col-md-4 list-inline">
+            <div class="card text-center">
+              <%= image_tag infos.picture, class: "img-circle avatar-xlarge" %>
+              <h3><%= member.capitalize %></h3>
+              <h4><%= infos.role.capitalize %></h4>
+            </div>
+          </div>
+        <% end %>
+    </div>
+  </div>
+<!-- </div> -->

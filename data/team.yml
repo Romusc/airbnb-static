@@ -1,0 +1,9 @@
+romain:
+  picture: images/romain.jpeg
+  role: COO
+seb:
+  picture: images/seb.jpg
+  role: CTO
+anne:
+  picture: images/anne.jpg
+  role: CS
